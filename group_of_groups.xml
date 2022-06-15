@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="food">
+				<include name="veg"></include>
+				<include name="non-veg"></include>
+			</define>
+			<define name="motors">
+				<include name="cars"></include>
+				<include name="bikes"></include>
+			</define>
+			
+			<run>
+				<include name="motors"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.TestNG_FEATURES.Ignore_feature" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

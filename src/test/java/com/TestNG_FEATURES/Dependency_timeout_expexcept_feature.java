@@ -37,7 +37,6 @@ public class Dependency_timeout_expexcept_feature {
 
 	}
 	
-	
 	//expected_exception
 	
 	@Test (expectedExceptions = ArithmeticException.class)

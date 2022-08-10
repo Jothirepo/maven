@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" retried="3" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
+  <suite name="Default suite" duration-ms="94" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
-      <class name="com.TestNG_FEATURES.Login_demo">
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo@704a52ec]" name="login" duration-ms="6" retried="true" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
+    <test name="Default test" duration-ms="94" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
+      <class name="com.TestNG_FEATURES.Login_demo_assert">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo_assert@307f6b8c]" name="login" duration-ms="15" retried="true" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [jothe] but found [jothi]]]>
@@ -20,7 +20,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.TestNG_FEATURES.Login_demo.login(Login_demo.java:15)
+at com.TestNG_FEATURES.Login_demo_assert.login(Login_demo_assert.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo@704a52ec]" name="login" duration-ms="1" retried="true" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo_assert@307f6b8c]" name="login" duration-ms="1" retried="true" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [jothe] but found [jothi]]]>
@@ -68,7 +68,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.TestNG_FEATURES.Login_demo.login(Login_demo.java:15)
+at com.TestNG_FEATURES.Login_demo_assert.login(Login_demo_assert.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo@704a52ec]" name="login" duration-ms="0" retried="true" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo_assert@307f6b8c]" name="login" duration-ms="1" retried="true" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [jothe] but found [jothi]]]>
@@ -116,7 +116,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.TestNG_FEATURES.Login_demo.login(Login_demo.java:15)
+at com.TestNG_FEATURES.Login_demo_assert.login(Login_demo_assert.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -151,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo@704a52ec]" name="login" duration-ms="1" started-at="2022-04-20T12:22:02 IST" finished-at="2022-04-20T12:22:02 IST">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.TestNG_FEATURES.Login_demo_assert@307f6b8c]" name="login" duration-ms="2" started-at="2022-07-23T12:58:14 IST" finished-at="2022-07-23T12:58:14 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [jothe] but found [jothi]]]>
@@ -164,7 +164,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.TestNG_FEATURES.Login_demo.login(Login_demo.java:15)
+at com.TestNG_FEATURES.Login_demo_assert.login(Login_demo_assert.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -199,7 +199,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- com.TestNG_FEATURES.Login_demo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.TestNG_FEATURES.Login_demo_assert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

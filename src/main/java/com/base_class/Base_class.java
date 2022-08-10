@@ -1,6 +1,5 @@
 package com.base_class;
 
-
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -22,21 +21,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base_class {
 
 	public static WebDriver driver;
 	public static Select s;
 	public static Actions ac;
 
-	// browser_launch
-
 	public static WebDriver Browserlaunch(String browsername) {
 
 		if (browsername.equalsIgnoreCase("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
-
+			WebDriverManager.chromedriver().setup();
+			
 			driver = new ChromeDriver();
 
 			driver.manage().window().maximize();
@@ -47,8 +45,8 @@ public class Base_class {
 
 		else if (browsername.equalsIgnoreCase("edge")) {
 
-			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
-
+			WebDriverManager.edgedriver().setup();
+			
 			driver = new EdgeDriver();
 
 			driver.manage().window().maximize();
@@ -59,8 +57,8 @@ public class Base_class {
 
 		else if (browsername.equalsIgnoreCase("firefox")) {
 
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
-
+			WebDriverManager.firefoxdriver().setup();
+			
 			driver = new FirefoxDriver();
 
 			driver.manage().window().maximize();
@@ -359,7 +357,7 @@ public class Base_class {
 	}
 	// enter_key
 
-	public static void enterkey() throws Throwable {
+	public static void enterkey() throws Throwable {		//AWT EXCEPTION
 
 		Robot r = new Robot();
 
@@ -380,6 +378,13 @@ public class Base_class {
 		driver.switchTo().frame(name);
 
 	}
+	
+	//frame_ID
+	public void idframe(String id) {
+
+		driver.switchTo().frame(id);
+	}
+	
 	// frame_web
 	public static void webframe(WebElement frameelement) {
 

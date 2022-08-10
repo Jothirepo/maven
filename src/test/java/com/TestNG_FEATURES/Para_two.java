@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class Para_two {
 
 	@Test
-	@Parameters({"Username", "password"})
-	public void logout(@Optional("ramalingam")String username, String password) {
+	@Parameters({"username", "password"})
+	public void logout(@Optional("ramalingam") String username, String password) {
 
 		System.out.println("username : " + username);
 		System.out.println("password : " + password);

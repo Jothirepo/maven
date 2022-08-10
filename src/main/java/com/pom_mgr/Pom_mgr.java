@@ -24,9 +24,11 @@ public class Pom_mgr {
 
 	}
 	
+//SYNTAX
+//access-modifier POM_PAGE Ref_name;
 
 	private Login_page lp;			//calling login_page here and making it private & get using getters
-	private Search_hotel sh;
+	private Search_hotel sh;		
 	private Select_hotel ssh;
 	private Booking_page bp;
 

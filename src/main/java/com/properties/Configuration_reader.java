@@ -3,14 +3,15 @@ package com.properties;
 
 import java.io.File;
 import java.io.FileInputStream;
-
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Properties;
 
 public class Configuration_reader {
 
 	public static Properties p;
 
-	public Configuration_reader() throws Throwable {			//constructor_method invoked since below statements are to be executed before calling methods
+	public Configuration_reader() throws IOException  {			//constructor_method invoked since below statements are to be executed before calling methods
 
 		File f = new File(
 				"C:\\Users\\jovin\\Pictures\\Screenshots\\Maven_project_sneha\\src\\main\\java\\com\\properties\\Adactin.properties");

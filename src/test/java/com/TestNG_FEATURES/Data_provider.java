@@ -18,14 +18,24 @@ public class Data_provider {
 
 	}
 	
+//	@DataProvider
+//	public Object[][] input() {
+//		
+//	return new Object [][] {
+//		
+//		{"jothi", "131"},
+//		{"rama", "1114"}
+//	};
+//	}
+	
 	@DataProvider
 	public Object[][] input() {
+
+		return new Object [][] {
+		{"jot", "121"},
+		{"1214", "qe"}
 		
-	return new Object [][] {
-		
-		{"jothi", "131"},
-		{"rama", "1114"}
-	};
+		};
 	}
 	
 	//hardassert //Validation

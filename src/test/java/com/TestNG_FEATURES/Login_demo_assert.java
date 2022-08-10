@@ -4,7 +4,7 @@ package com.TestNG_FEATURES;
 import  org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Login_demo {
+public class Login_demo_assert {
 	
 	
 			//actual class to be run

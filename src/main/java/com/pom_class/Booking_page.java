@@ -85,6 +85,11 @@ public class Booking_page {
 		return logout;
 	}
 
-	
+	@FindBy (id = "jothi")
+	private WebElement jothi;
+
+	public WebElement getJothi() {
+		return jothi;
+	}
 	
 }

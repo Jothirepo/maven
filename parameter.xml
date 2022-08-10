@@ -4,7 +4,10 @@
   <test thread-count="5" name="Test">
   
   <parameter name="username" value="jothi"></parameter>
-  <parameter name="password" value="12141"></parameter>
+  <parameter name="username" value="ila"></parameter>
+  <parameter name="password" value="12141"></parameter> 
+  <parameter name="password" value="kkk1"></parameter>
+ 
   
   <classes>
   <class name="com.TestNG_FEATURES.Parameterized_feature"></class>

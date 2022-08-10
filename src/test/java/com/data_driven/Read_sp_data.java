@@ -28,7 +28,7 @@ public class Read_sp_data {
 		Row row = sheet.getRow(3);
 
 		Cell cell = row.getCell(3);
-
+		
 		CellType cellType = cell.getCellType();
 
 		if (cellType.equals(cellType.STRING)) {
